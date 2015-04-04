@@ -15,7 +15,7 @@ vbox_url=http://download.virtualbox.org/virtualbox
 
 mkdir -p $mount_dir
 
-if [ ! -e $save_dir/$file_name ]
+if [ ! -e $saved_dir/$file_name ]
 then
   wget -P $saved_dir $vbox_url/${version}/$file_name
 fi
